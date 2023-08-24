@@ -1,0 +1,15 @@
+CREATE TABLE Categories (
+  "id" int,
+  "description" VARCHAR(MAX),
+  "name" VARCHAR(MAX)
+);
+
+INSERT INTO Categories VALUES
+(2,'Sweet and savory sauces relishes spreads and seasonings','Condiments'),
+(1,'Soft drinks coffees teas beers and ales','Beverages'),
+(3,'Desserts candies and sweet breads','Confections'),
+(4,'Cheeses','Dairy Products'),
+(5,'Breads crackers pasta and cereal','Grains/Cereals'),
+(6,'Prepared meats','Meat/Poultry'),
+(7,'Dried fruit and bean curd','Produce'),
+(8,'Seaweed and fish','Seafood');
